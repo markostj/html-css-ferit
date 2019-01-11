@@ -46,8 +46,42 @@ body{
 .maintitle{
     text-align:center;
     color:grey;
+    border-width:0px 0px 0.5px 0px;
+    border-style:solid;
+    border-color:grey;
 }
 .container3{
     display:flex;
     flex-flow:row nowrap;
+    justify-content:space-evenly;
+}
+.columntitle{
+    margin:20px;
+    border-width:0px 0px 0.5px 0px;
+    border-style:solid;
+    border-color:grey;
+}
+.columntitle a:link{
+    color:#3333ff;
+    text-decoration:none;
+}
+.columntitle a:visited{
+    color:#3333ff;
+}
+.columntitle a:hover{
+    color:black;
+}
+.other-links{
+    margin:5px 40px;
+    text-align:right;
+}
+.other-links a:link{
+    color:#3333ff;
+    text-decoration:none;
+}
+.other-links a:visited{
+     color:#3333ff;
+}
+.other-links a:hover{
+    color:black;
 }
