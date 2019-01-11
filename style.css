@@ -6,11 +6,16 @@ body{
       font-size:20px;
 }
 .wrapper{
- 
+    margin:0px 50px;
     background-color:white;
+    border-style:outset;
 }
 .container{
-    display:flex;
+    display: flex;
+    position: fixed;            /*so we can get fixed and flex */
+    top: 0;
+    left: 0;
+    right: 0;
     justify-content:space-evenly;
     background-color:#494969;
     color:white;
@@ -29,4 +34,20 @@ body{
 }
 .nav a:hover{
     color:#a3a3c2;
+}
+.container2{
+    display:flex;
+    justify-content:center;
+}
+
+.Pic1 img{
+    width:100%;
+}
+.maintitle{
+    text-align:center;
+    color:grey;
+}
+.container3{
+    display:flex;
+    flex-flow:row nowrap;
 }
