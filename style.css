@@ -55,6 +55,15 @@ body{
     flex-flow:row nowrap;
     justify-content:space-evenly;
 }
+.column1{
+    flex:2 1 0;
+}
+.column2{
+    flex:2 1 0;
+}
+.column3{
+    flex:2 1 0;
+}
 .columntitle{
     margin:20px;
     border-width:0px 0px 0.5px 0px;
@@ -84,4 +93,26 @@ body{
 }
 .other-links a:hover{
     color:black;
+}
+.foot{
+    background-color:#494969;
+}
+.container4{
+    display:flex;
+    justify-content:space-evenly;
+    color:white;
+}
+.col{
+    border-width:0px 2px 0px 0px;
+    border-color:white;
+    border-style:dotted;
+}
+.col a:link{
+    color:white;
+}
+.col a:visited{
+    color:white;
+}
+.col a:hover:{
+    color:white;
 }
