@@ -19,9 +19,14 @@ body{
 .icon img{
   width:30px;
 }
-.dropdown-content{
-    display:none;
+.nav a:link{
+    color:white;
+    text-decoration:none;
 }
-.nav:hover .dropdown-content {
-  display: block;
+
+.nav a:visited{
+    color:white;
+}
+.nav a:hover{
+    color:#a3a3c2;
 }
