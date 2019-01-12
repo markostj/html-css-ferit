@@ -5,22 +5,6 @@ body{
       background-color:#e1e1ea;
       font-size:20px;
 }
-.wrapper{
-    margin:0px 50px;
-    background-color:white;
-    border-style:outset;
-}
-.container{
-    display: flex;
-    position: fixed;            /*so we can get fixed and flex */
-    top: 0;
-    left: 0;
-    right: 0;
-    justify-content:space-evenly;
-    background-color:#494969;
-    color:white;
-    font-size:1.5rem;
-}
 .icon img{
   width:30px;
 }
@@ -49,11 +33,6 @@ body{
     border-width:0px 0px 0.5px 0px;
     border-style:solid;
     border-color:grey;
-}
-.container3{
-    display:flex;
-    flex-flow:row nowrap;
-    justify-content:space-evenly;
 }
 .column1{
     flex:2 1 0;
@@ -101,23 +80,135 @@ body{
 .foot{
     background-color:#494969;
 }
-.container4{
+.links a:link{
+    color:white;
+}
+.links a:visited{
+    color:white;
+}
+.links a:hover:{
+    color:white;
+}
+@media (max-width:2000px){
+    .container{
+    display: flex;
+    position: fixed;            /*so we can get fixed and flex */
+    top: 0;
+    left: 0;
+    right: 0;
+    justify-content:space-evenly;
+    background-color:#494969;
+    color:white;
+    }
+    .wrapper{
+    margin:0px 50px;
+    background-color:white;
+    border-style:outset;
+    }
+    .container3{
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:space-evenly;
+    }
+     .container4{
     display:flex;
     justify-content:space-evenly;
     color:white;
-}
-.col{
+    }
+    .col1{
     border-width:0px 0.5px 0px 0px;
     border-color:white;
     border-style:dotted;
+    }
+    .col2{
+    border-width:0px 0.5px 0px 0px;
+    border-color:white;
+    border-style:dotted;
+    }
+    .col3{
+    border-width:0px 0.5px 0px 0px;
+    border-color:white;
+    border-style:dotted;
+    }
 }
-.col a:link{
+@media(max-width: 700px){
+    .container{
+    display: flex;
+    flex-flow:column wrap;
+    align-items:center;
+    background-color:#494969;
     color:white;
-}
-.col a:visited{
+    font-size:1.8rem;
+    }
+    .wrapper{
+    margin:0px 10px;
+    background-color:white;
+    border-style:outset;
+    }
+    .container3{
+    display:flex;
+    flex-flow:column wrap;
+    justify-content:space-evenly;
+    }
+     .container4{
+    display:flex;
+    justify-content:space-evenly;
     color:white;
+    }
+    .col1{
+    border-width:0px 0.5px 0px 0px;
+    border-color:white;
+    border-style:dotted;
+    }
+    .col2{
+    border-width:0px 0.5px 0px 0px;
+    border-color:white;
+    border-style:dotted;
+    }
+    .col3{
+    border-width:0px 0.5px 0px 0px;
+    border-color:white;
+    border-style:dotted;
+    }
 }
-.col a:hover:{
+@media (max-width: 500px){
+   .container{
+    display: flex;
+    flex-flow:column wrap;
+    align-items:center;
+    background-color:#494969;
     color:white;
+    font-size:1.8rem;
+    }
+    .wrapper{
+    margin:0px 10px;
+    background-color:white;
+    border-style:outset;
+    }
+    .container3{
+    display:flex;
+    flex-flow:column wrap;
+    justify-content:space-evenly;
+    }
+     .container4{
+    display:flex;
+    flex-flow:column wrap;
+    justify-content:space-evenly;
+    color:white;
+    }
+    .col1{
+    border-width:0px 0px 0.5px 0px;
+    border-color:white;
+    border-style:dotted;
+    }
+    .col2{
+    border-width:0px 0px 0.5px 0px;
+    border-color:white;
+    border-style:dotted;
+    }
+    .col3{
+    border-width:0px 0px 0.5px 0px;
+    border-color:white;
+    border-style:dotted;
+    }
 }
-/*media queriese treba dodati i datume na linkove one */
