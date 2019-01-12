@@ -80,6 +80,10 @@ body{
 .columntitle a:hover{
     color:black;
 }
+.dates{
+    font-size:0.9rem;
+    font-style:italic;
+}
 .other-links{
     margin:5px 40px;
     text-align:right;
@@ -103,7 +107,7 @@ body{
     color:white;
 }
 .col{
-    border-width:0px 2px 0px 0px;
+    border-width:0px 0.5px 0px 0px;
     border-color:white;
     border-style:dotted;
 }
@@ -116,3 +120,4 @@ body{
 .col a:hover:{
     color:white;
 }
+/*media queriese treba dodati i datume na linkove one */
