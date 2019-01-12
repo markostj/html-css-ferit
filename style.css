@@ -82,6 +82,7 @@ body{
 }
 .links a:link{
     color:white;
+    text-decoration:none;
 }
 .links a:visited{
     color:white;
@@ -197,9 +198,9 @@ body{
     color:white;
     }
     .col1{
-    border-width:0px 0px 0.5px 0px;
-    border-color:white;
-    border-style:dotted;
+    margin:20px 0px;
+    border:0px;
+    order:1;
     }
     .col2{
     border-width:0px 0px 0.5px 0px;
@@ -207,6 +208,11 @@ body{
     border-style:dotted;
     }
     .col3{
+    border-width:0px 0px 0.5px 0px;
+    border-color:white;
+    border-style:dotted;
+    }
+    .col4{
     border-width:0px 0px 0.5px 0px;
     border-color:white;
     border-style:dotted;
